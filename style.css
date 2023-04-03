@@ -6,24 +6,25 @@ body {
 }
 
 .header {
-    height: 50px;
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     color: #EEE;
     align-items: center;
-    padding: 0 250px;
+    padding: 32px 250px;
 }
 
 .header-logo {
-    color: #F9FAF8;
-    font-size: 24px;
+    height: 150px;
+    width: 150px;
+
 }
 
 .header-links {
     display: flex;
-    gap: 16px;
+    gap: 32px;
     color: #E5E7EB;
+    font-size: 24px;
 }
 
 .top-half {
@@ -31,7 +32,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     color: #EEE;
-    height: 500px;
+    height: 450px;
 }
 
 .top-text {
@@ -53,6 +54,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     width: 400px;
+    margin-top: 8px;
 }
 
 .signup {
@@ -87,7 +89,7 @@ body {
 
 .middle {
     display: flex;
-    height: 500px;
+    height: 600px;
     flex-direction: column;
 }
 
@@ -104,8 +106,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 200px;
-    height: 250px;
+    gap: 250px;
+    height: 350px;
+    font-size: 19px;
+    margin-top: 20px;
 }
 
 .combo {
@@ -120,16 +124,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 200px;
     text-align: center;
     margin-top: 8px;
 }
 
 .box {
     border: 4px solid #3882F6;
-    padding: 85px;
     border-radius: 8px;
-    color: #E5E7EB;
+    height: 210px;
+    width: 260px;
 }
 
 .bottom-text {
@@ -177,6 +181,7 @@ body {
 .killme {
     display: flex;
     flex-direction: column;
+    width: 600px;
 }
 
 .kmheader {
